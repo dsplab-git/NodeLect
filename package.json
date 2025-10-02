@@ -1,0 +1,29 @@
+{
+  "name": "nodelect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsplab-git/NodeLect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsplab-git/NodeLect/issues"
+  },
+  "homepage": "https://github.com/dsplab-git/NodeLect#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.10"
+  }
+}
